@@ -1,5 +1,10 @@
 import SocialButton from "../components/SocialButton";
 
+export const metadata = {
+	title: "Услуги Гадалки",
+	description: "Привороты, ритуалы и чистки"
+};
+
 export default function Home() {
 	return (
 		<div
