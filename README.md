@@ -18,5 +18,5 @@ npm run build
 ```
 5. Запустить релизную версию на требуемом порте.
 ```Bash
-npm run start -p {PORT}
+PORT={PORT} npm run start
 ```
