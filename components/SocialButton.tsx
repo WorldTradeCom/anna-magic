@@ -25,13 +25,14 @@ const config: Record<ButtonType, { link: string; label: string } >= {
 export default function SocialButton({ type, color }: SocialButtonProps) {
 	const { link, label } = config[type];
 	const ImageLink = `/images/${type}-icon.png`;
+	const TextColor = type === "max" ? "text-black" : "text-white";
 
 	return (
 		<a
 			href={link}
 			target="_blank"
 			rel="noopener noreferrer"
-			className="flex items-center justify-center gap-2 px-6 py-3 rounded-md text-white text-lg font-medium transition-transform duration-300 hover:scale-105 active:brightness-75 min-w-50"
+			className={`flex items-center justify-center gap-2 px-6 py-3 rounded-md ${TextColor} text-lg font-medium transition-transform duration-300 hover:scale-105 active:brightness-75 min-w-50`}
 			style={{ backgroundColor: color }}
 		>
 			<Image src={ImageLink} alt={label} width={24} height={24} />
