@@ -17,7 +17,7 @@ const config: Record<ButtonType, { link: string; label: string } >= {
 		label: "WhatsApp",
 	},
 	max: {
-		link: "https://max.ru/u/f9LHodD0cOIT7N6XceeCgmeeFpIv9GtCguy7PA9WTikniGLgjz0BR-gD8Bo",
+		link: "https://max.ru/u/f9LHodD0cOIiHxexz4RLOGz0OEB918RfywgqZ-FSadWeoaSNsb1HZRqQ6iM",
 		label: "Max",
 	}
 };
