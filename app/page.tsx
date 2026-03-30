@@ -19,9 +19,9 @@ export default function Home() {
 			<h3 className="text-2xl -mt-2 drop-shadow-lg">Привороты</h3>
 
 			<div className="flex flex-wrap justify-center gap-4 mt-6">
+				<SocialButton type="max" color="#9A6EC3" />
 				<SocialButton type="telegram" color="#0088cc" />
 				<SocialButton type="whatsapp" color="#25d366" />
-				<SocialButton type="max" color="#c9c9c9" />
 			</div>
 		</div>
 	);
